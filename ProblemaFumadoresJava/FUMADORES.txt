@@ -1,0 +1,16 @@
+FUMADORES
+Tenemos que tener 4 hebras.
+Los fumadores solo fuman en un bucle infinito.
+El estanquero pone ingredientes en un bucle infinito.
+Podria estar fumando los 3 fumadores.
+Liar un cigarrillo y encenderlo.
+Cada fumador tiene 2 ingredientes infinitos.
+El estanquero pone un solo ingrediente aleatoriamente.
+EL estanquero desbloquea al fumador que necesita el ingrediente.
+Necesitamos un semaforo para cada fumador.
+Los fumadores estan bloqueados sin poder fumar hasta que llegue su ingrediente.
+El estanquero despues de desbloquear al fumador se bloquea hasta que el ingrediente no es cogido por el fumador.
+Antes de ponerse a fumar desbloquea al estanquero.
+Los fumadores se ponen a fumar desde una decima a 2 segundos.
+Para finalizar con blucles infinitos y lo paramos con CTRL+C.
+

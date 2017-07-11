@@ -1,0 +1,86 @@
+Para realizar el problema de los productores y consumidores he tenido que calcular el numero de iteraciones de cada consumidor y de cada productor. Para ello como son 5 productores producirán cada uno 4 elementos y como son 4 consumidores consumirán 5 elementos cada uno por lo tanto 20 elementos en total. Buffer tendrá que hacer el doble de iteraciones osea 5*4*2.
+
+He usado tags para identificar a los productores en este caso la etiqueta de los productores es 0 y la de los consumidores que envían es 1 y los consumidores que reciben es 2 para así identificar a ambos.
+
+
+ Productor 0 produce valor 0
+ Productor 2 produce valor 0
+ Productor 3 produce valor 0
+ Productor 4 produce valor 0
+ Productor 1 produce valor 0
+ Productor 0 produce valor 1
+ Buffer recibe 0 de Prod.
+ Consumidor 6 recibe valor 0 de Buffer 
+ Buffer envia 0 a Cons.
+ Buffer recibe 1 de Prod.
+ Productor 1 produce valor 1
+ Buffer recibe 0 de Prod.
+ Productor 0 produce valor 2
+ Consumidor 7 recibe valor 0 de Buffer 
+ Buffer envia 0 a Cons.
+ Productor 0 produce valor 3
+ Buffer recibe 2 de Prod.
+ Consumidor 6 recibe valor 2 de Buffer 
+ Buffer envia 2 a Cons.
+ Buffer recibe 1 de Prod.
+ Productor 1 produce valor 2
+ Consumidor 6 recibe valor 1 de Buffer 
+ Buffer envia 1 a Cons.
+ Buffer recibe 3 de Prod.
+ Buffer envia 3 a Cons.
+ Buffer recibe 2 de Prod.
+ Consumidor 7 recibe valor 3 de Buffer 
+ Productor 1 produce valor 3
+ Consumidor 7 recibe valor 2 de Buffer 
+ Buffer envia 2 a Cons.
+ Buffer recibe 0 de Prod.
+ Productor 2 produce valor 1
+ Consumidor 6 recibe valor 0 de Buffer 
+ Buffer envia 0 a Cons.
+ Buffer recibe 3 de Prod.
+ Consumidor 7 recibe valor 3 de Buffer 
+ Buffer envia 3 a Cons.
+ Buffer recibe 1 de Prod.
+ Productor 2 produce valor 2
+ Consumidor 6 recibe valor 1 de Buffer 
+ Buffer envia 1 a Cons.
+ Buffer recibe 2 de Prod.
+ Productor 2 produce valor 3
+ Consumidor 7 recibe valor 2 de Buffer 
+ Buffer envia 2 a Cons.
+ Buffer recibe 3 de Prod.
+ Buffer envia 3 a Cons.
+ Buffer recibe 0 de Prod.
+ Productor 3 produce valor 1
+ Consumidor 9 recibe valor 3 de Buffer 
+ Buffer envia 0 a Cons.
+ Buffer recibe 1 de Prod.
+ Consumidor 9 recibe valor 0 de Buffer 
+ Productor 3 produce valor 2
+ Buffer envia 1 a Cons.
+ Buffer recibe 2 de Prod.
+ Consumidor 9 recibe valor 1 de Buffer 
+ Productor 3 produce valor 3
+ Consumidor 9 recibe valor 2 de Buffer 
+ Buffer envia 2 a Cons.
+ Buffer recibe 3 de Prod.
+ Consumidor 9 recibe valor 3 de Buffer 
+ Buffer envia 3 a Cons.
+ Buffer recibe 0 de Prod.
+ Productor 4 produce valor 1
+ Buffer envia 0 a Cons.
+ Buffer recibe 1 de Prod.
+ Productor 4 produce valor 2
+ Consumidor 8 recibe valor 0 de Buffer 
+ Consumidor 8 recibe valor 1 de Buffer 
+ Buffer envia 1 a Cons.
+ Buffer recibe 2 de Prod.
+ Productor 4 produce valor 3
+ Buffer envia 2 a Cons.
+ Buffer recibe 3 de Prod.
+ Consumidor 8 recibe valor 2 de Buffer 
+ Buffer envia 3 a Cons.
+ Consumidor 8 recibe valor 3 de Buffer 
+ Consumidor 8 recibe valor 1 de Buffer 
+ Buffer envia 1 a Cons.
+

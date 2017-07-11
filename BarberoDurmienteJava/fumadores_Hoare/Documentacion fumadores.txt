@@ -1,0 +1,14 @@
+Emilio Chica Jiménez
+
+Utilizo una única variable para saber si hay un ingediente en la mesa, y es ingre.
+
+Utilizo una variable condición en forma de array para cada uno de los fumadores y una para el estanquero.
+
+La del estanquero la controlo si hay ingredientes en la mesa, lo paro.
+
+La de los fumadores la controlo si el ingrediente que hay en la mesa no es mio me paro.
+
+Para simular que ha cogido el ingrediente utilizo la variable ingre y la pongo a -1.
+
+El estanquero sólo despierta al fumador correspondiente al ingrediente que ha puesto en la mesa,
+esto lo controlo con un array de fumadores el cual cada fumador tiene asignado su ingrediente como indice.

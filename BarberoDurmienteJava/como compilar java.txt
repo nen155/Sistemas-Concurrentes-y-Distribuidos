@@ -1,0 +1,8 @@
+javac ej1.java
+java Principal2
+La clase del metodo main que se llame igual que la del metodo main.
+UNico archivo .java
+
+POR SI NO ESTA HECHO PARA COMPILAR LOS EJERCICIOS CON MONITOR TIPO HAORE HAY QUE
+COMPILAR CON JAVAC *.JAVA TODOS LOS ARCHIVOS DE LA CARPETA MONITOR E HACER UN IMPORT
+DE IMPORT MONITOR.*;
